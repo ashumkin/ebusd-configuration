@@ -32,7 +32,7 @@ r;w,,HcName1,aaucHcNames_HK1,,,,"3F00",,,STR:11,,,"labelling of the first heatin
 r;w,,HcName2,aaucHcNames_HK2,,,,"3F08",,,STR:11,,,"labelling of the second heating circuit (only A-Z,0-9,blank)"
 r;wi,,ContactName,aucContactName,,,,"B400",,,STR:13,,,"installer's name (only A-Z,0-9,blank)"
 r;wi,,PhoneNumber,aucPhoneNumber,,,,"5400",,,STR:13,,,"installer's telephone number (only 0-9,-,blank)"
-r;wi,,MaintenanceDate,MaintenanceDate,,,,"5900",,,date,,,date of the next maintenance service
+r;w,,MaintenanceDate,MaintenanceDate,,,,"5900",,,date,,,date of the next maintenance service
 r;w,,LcdContrastValue,LcdContrastValue,,,,"5A00",,,UCH,,,setting of the LCD contrast
 r;w,,SummerWinterTimeAdjust,SummerWinterTimeAdjust,,,,"5300",,,UCH,0=off;1=auto,,enable automatic switching over to daylight saving's time (when a DCF receiver is connected to the BMU the value is set fix to ON)
 r;w,,LanguageVariant,LanguageVariant,,,,"1600",,,UCH,0=german;1=english;2=french;3=italian;4=danish;5=dutch;6=spanish;7=turkish;8=hungarian;9=russian;10=ukrainian;11=estonian;12=latvian;13=lithuanian;14=swedish;15=norwegian;16=polish;17=czech;18=croatian;19=slovakian;20=romanian;21=slovenian;22=serbian,,display language
