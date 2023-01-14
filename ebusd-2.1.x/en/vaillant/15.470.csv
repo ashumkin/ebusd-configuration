@@ -46,7 +46,7 @@ r;wi,,HcMc1ConfigCPLP,BKMK1ConfigCPLP,,,,"7D00",,,UCH,0=off;1=CP;2=LP,,configura
 r,,CirPump,CircuPumpRunning,,,,"8100",,,yesno,,,circulation pump's state
 r;wi,,Hc1HcType,HC1_HCType,,,,"3A00",,,UCH,0=disabled;1=burnercircuit,,type of the first heating circuit
 r;w,,Hc1HeatCurve,HC1_HeatCurve,,,,"3100",,,curve,,,heating curve of the first heating circuit
-r;wi,,Hc1RoomTempSwitchOn,HC1_RoomTempSwitchOn,,,,"3400",,,UCH,0=off;1=modulating;2=thermostat,,room temperature modulation of the first heating circuit
+r;w,,Hc1RoomTempSwitchOn,HC1_RoomTempSwitchOn,,,,"3400",,,UCH,0=off;1=modulating;2=thermostat,,room temperature modulation of the first heating circuit
 r;wi,,Hc1SummerOffset,HC1_SummerOffset,,,,"3B00",,,calibrations,,,"summer offset of the first heating circuit (if outside temperature > room setpoint + summer offset => heating is OFF;applies to comfort and night setback setpoint; no influence if room temperature modulation is set to ""thermostat"")"
 r;wi,,Hc1MinimalFlowTempDesired,HC1_MinimalFlowSetpoint,,,,"3500",,,temp1,,,minimum flow temperature setpoint (end emphasis) of the first heating circuit
 r;wi,,Hc1AutoOffMode,HC1_AutoOFF_Mode,,,,"4D00",,,UCH,0=frostprotection;1=lowering;2=eco,,operation during the lowering time
